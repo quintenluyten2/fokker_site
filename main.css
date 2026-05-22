@@ -12,6 +12,7 @@
   --tag-article:    #1a3a5c;
   --tag-image:      #2d6a4f;
   --tag-commentary: #7b3f00;
+  --tag-tijdlijn:   #5b2d8e;
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body:    'Source Serif 4', Georgia, serif;
   --font-mono:    'IBM Plex Mono', monospace;
@@ -199,6 +200,7 @@ a:hover { color: var(--accent); }
 .post-card[data-type="article"]    { border-left-color: var(--tag-article); }
 .post-card[data-type="image"]      { border-left-color: var(--tag-image); }
 .post-card[data-type="commentary"] { border-left-color: var(--tag-commentary); }
+.post-card[data-type="tijdlijn"]   { border-left-color: var(--tag-tijdlijn); }
 
 .post-meta {
   display: flex;
@@ -227,6 +229,7 @@ a:hover { color: var(--accent); }
 .post-type.article    { background: var(--tag-article); }
 .post-type.image      { background: var(--tag-image); }
 .post-type.commentary { background: var(--tag-commentary); }
+.post-type.tijdlijn   { background: var(--tag-tijdlijn); }
 
 .post-card h2 {
   font-family: var(--font-display);

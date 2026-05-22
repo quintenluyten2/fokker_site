@@ -12,8 +12,11 @@ layout: default
     <header class="post-header">
       <div class="post-meta">
         <span class="post-date">{{ page.date | date: "%d %B %Y" }}</span>
-        <span class="post-type {{ page.type | default: 'article' }}">
-          {% if page.type == 'image' %}
+        {% if page.type %}
+        <span class="post-type {{ page.type }}">
+          {% if page.type == 'tijdlijn' %}
+            Tijdlijn
+          {% elsif page.type == 'image' %}
             {% if lang == 'nl' %}Afbeelding{% else %}Image{% endif %}
           {% elsif page.type == 'commentary' %}
             {% if lang == 'nl' %}Commentaar{% else %}Commentary{% endif %}
@@ -21,6 +24,7 @@ layout: default
             {% if lang == 'nl' %}Artikel{% else %}Article{% endif %}
           {% endif %}
         </span>
+        {% endif %}
       </div>
       <h1>{{ page.title }}</h1>
       {% if page.source %}

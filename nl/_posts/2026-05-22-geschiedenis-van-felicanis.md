@@ -1,6 +1,6 @@
 ---
 title: "Geschiedenis van Felicanis"
-type: article
+type: tijdlijn
 permalink: /nl/tijdlijn/
 excerpt: "Felicanis is een website, eigendom van de onderneming Roedel BV. Deze onderneming beheert ook de sites puppymakelaar.be en puppyroedel.be."
 ---

@@ -43,8 +43,11 @@ layout: default
       <article class="post-card" data-type="{{ post.type | default: 'article' }}">
         <div class="post-meta">
           <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
-          <span class="post-type {{ post.type | default: 'article' }}">
-            {% if post.type == 'image' %}
+          {% if post.type %}
+          <span class="post-type {{ post.type }}">
+            {% if post.type == 'tijdlijn' %}
+              Tijdlijn
+            {% elsif post.type == 'image' %}
               {% if lang == 'nl' %}Afbeelding{% else %}Image{% endif %}
             {% elsif post.type == 'commentary' %}
               {% if lang == 'nl' %}Commentaar{% else %}Commentary{% endif %}
@@ -52,6 +55,7 @@ layout: default
               {% if lang == 'nl' %}Artikel{% else %}Article{% endif %}
             {% endif %}
           </span>
+          {% endif %}
         </div>
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         {% if post.excerpt %}
