@@ -11,3 +11,5 @@ Eigenaar van Just Dogs (Kempenaars Kennel) krijgt levenslang houdverbod. De eige
 Na het faillissement werden 400 verwaarloosde en ondervoede honden aangetroffen in de kennel in Kasterlee. Deze kennel werd later verkocht aan BVBA Hoeve Hoogland.
 
 Dankzij een klacht van GAIA in 2016 werd een zaak aangespannen die uiteindelijk leidde tot het houdverbod voor de eigenaar van Just Dogs.
+
+> Zie ook: [Zes maanden effectieve celstraf en €12.000 boete voor broodfokker en hondenverwaarlozer Gerd (GAIA)](https://www.gaia.be/nl/nieuws/zes-maanden-effectieve-celstraf-en-12000-euro-boete-broodfokker-en-hondenverwaarlozer-gerd)
