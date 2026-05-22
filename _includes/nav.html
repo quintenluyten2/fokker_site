@@ -1,0 +1,17 @@
+{% assign lang = page.lang | default: 'nl' %}
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="{{ '/' | append: lang | append: '/' | relative_url }}"{% if page.url == '/' or page.url == '/nl/' or page.url == '/en/' %} class="active"{% endif %}>
+      {% if lang == 'nl' %}Startpagina{% else %}Home{% endif %}
+    </a>
+    <a href="{{ '/' | append: lang | append: '/bewijsmateriaal/' | relative_url }}">
+      {% if lang == 'nl' %}Bewijsmateriaal{% else %}Evidence{% endif %}
+    </a>
+    <a href="{{ '/' | append: lang | append: '/tijdlijn/' | relative_url }}">
+      {% if lang == 'nl' %}Tijdlijn{% else %}Timeline{% endif %}
+    </a>
+    <a href="{{ '/' | append: lang | append: '/over/' | relative_url }}">
+      {% if lang == 'nl' %}Over{% else %}About{% endif %}
+    </a>
+  </div>
+</nav>

@@ -1,0 +1,118 @@
+---
+layout: default
+---
+{% assign lang = page.lang | default: 'nl' %}
+{% assign lang_posts = site.posts | where: "lang", lang %}
+
+<section class="site-hero">
+  <div class="hero-inner">
+    {% if lang == 'nl' %}
+    <p>
+      Deze website documenteert bewijsmateriaal over de praktijken van Felicanis Broodfokker.
+      Alle informatie is verzameld en geverifieerd uit publieke bronnen.
+    </p>
+    <p>
+      Gebruik de filters in de zijbalk om te zoeken op type bewijs of tijdperiode.
+    </p>
+    {% else %}
+    <p>
+      This website documents evidence about the practices of Felicanis Broodfokker.
+      All information has been collected and verified from public sources.
+    </p>
+    <p>
+      Use the sidebar filters to search by evidence type or time period.
+    </p>
+    {% endif %}
+  </div>
+</section>
+
+<div class="page-wrap">
+  <div class="main-content">
+    <p class="section-label">
+      {% if lang == 'nl' %}Recente documenten{% else %}Recent documents{% endif %}
+    </p>
+
+    <div class="post-list">
+      {% for post in lang_posts limit: 10 %}
+      <article class="post-card" data-type="{{ post.type | default: 'article' }}">
+        <div class="post-meta">
+          <span class="post-date">{{ post.date | date: "%d %b %Y" }}</span>
+          <span class="post-type {{ post.type | default: 'article' }}">
+            {% if post.type == 'image' %}
+              {% if lang == 'nl' %}Afbeelding{% else %}Image{% endif %}
+            {% elsif post.type == 'commentary' %}
+              {% if lang == 'nl' %}Commentaar{% else %}Commentary{% endif %}
+            {% else %}
+              {% if lang == 'nl' %}Artikel{% else %}Article{% endif %}
+            {% endif %}
+          </span>
+        </div>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% if post.excerpt %}
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+        {% if post.source %}
+        <p class="post-source">
+          {% if lang == 'nl' %}Bron{% else %}Source{% endif %}:
+          <a href="{{ post.source }}" rel="noopener">{{ post.source_label | default: post.source }}</a>
+        </p>
+        {% endif %}
+      </article>
+      {% endfor %}
+
+      {% if lang_posts.size == 0 %}
+      <p style="color: var(--ink-muted); font-family: var(--font-mono); font-size: 0.85rem;">
+        {% if lang == 'nl' %}Nog geen documenten gepubliceerd.{% else %}No documents published yet.{% endif %}
+      </p>
+      {% endif %}
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-box">
+      <h3>{% if lang == 'nl' %}Filter op type{% else %}Filter by type{% endif %}</h3>
+      <ul class="filter-list">
+        <li>
+          <a href="#">
+            {% if lang == 'nl' %}Artikelen{% else %}Articles{% endif %}
+            <span class="filter-count">{{ lang_posts | where: "type", "article" | size }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            {% if lang == 'nl' %}Afbeeldingen{% else %}Images{% endif %}
+            <span class="filter-count">{{ lang_posts | where: "type", "image" | size }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            {% if lang == 'nl' %}Commentaar{% else %}Commentary{% endif %}
+            <span class="filter-count">{{ lang_posts | where: "type", "commentary" | size }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="sidebar-box">
+      <h3>{% if lang == 'nl' %}Statistieken{% else %}Statistics{% endif %}</h3>
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num">{{ lang_posts.size }}</span>
+          <span class="stat-label">{% if lang == 'nl' %}Documenten{% else %}Documents{% endif %}</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">{{ lang_posts | where: "type", "image" | size }}</span>
+          <span class="stat-label">{% if lang == 'nl' %}Afbeeldingen{% else %}Images{% endif %}</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">{{ site.posts | size }}</span>
+          <span class="stat-label">Totaal</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">2</span>
+          <span class="stat-label">{% if lang == 'nl' %}Talen{% else %}Languages{% endif %}</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>

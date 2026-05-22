@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <span>Documentatie / Documentation</span>
+      Felicanis Broodfokker
+    </a>
+    <div class="lang-switcher">
+      <a href="{{ '/nl/' | relative_url }}"{% if page.lang == 'nl' %} class="active"{% endif %}>NL</a>
+      <a href="{{ '/en/' | relative_url }}"{% if page.lang == 'en' %} class="active"{% endif %}>EN</a>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,39 @@
+title: "Felicaniс Broodfokker — Documentatie"
+description: "Verzameling van bewijsmateriaal en documentatie / Collection of evidence and documentation"
+url: "https://felicanisbroodfokker.be"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:lang/:categories/:year/:month/:day/:title/
+
+# Plugins (all supported natively by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "nl"
+    values:
+      lang: "nl"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - config.yaml
