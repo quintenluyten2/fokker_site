@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="header-inner">
-    <a href="{{ '/' | relative_url }}" class="site-title">
+    <a href="{{ '/' | append: (page.lang | default: 'nl') | append: '/' | relative_url }}" class="site-title">
       <span>Documentatie / Documentation</span>
       Felicanis Broodfokker
     </a>
