@@ -10,7 +10,7 @@
     <a href="{{ '/' | append: lang | append: '/tijdlijn/' | relative_url }}"{% if page.url == '/nl/tijdlijn/' or page.url == '/en/tijdlijn/' %} class="active"{% endif %}>
       {% if lang == 'nl' %}Tijdlijn{% else %}Timeline{% endif %}
     </a>
-    <a href="{{ '/' | append: lang | append: '/over/' | relative_url }}">
+    <a href="{{ '/' | append: lang | append: '/over/' | relative_url }}"{% if page.url == '/nl/over/' or page.url == '/en/over/' %} class="active"{% endif %}>
       {% if lang == 'nl' %}Over{% else %}About{% endif %}
     </a>
   </div>
