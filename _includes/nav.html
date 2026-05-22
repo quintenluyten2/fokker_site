@@ -7,7 +7,7 @@
     <a href="{{ '/' | append: lang | append: '/bewijsmateriaal/' | relative_url }}">
       {% if lang == 'nl' %}Bewijsmateriaal{% else %}Evidence{% endif %}
     </a>
-    <a href="{{ '/' | append: lang | append: '/tijdlijn/' | relative_url }}">
+    <a href="{{ '/' | append: lang | append: '/tijdlijn/' | relative_url }}"{% if page.url == '/nl/tijdlijn/' or page.url == '/en/tijdlijn/' %} class="active"{% endif %}>
       {% if lang == 'nl' %}Tijdlijn{% else %}Timeline{% endif %}
     </a>
     <a href="{{ '/' | append: lang | append: '/over/' | relative_url }}">
