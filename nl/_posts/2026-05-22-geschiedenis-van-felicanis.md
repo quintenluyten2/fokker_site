@@ -11,13 +11,13 @@ Felicanis is een website, eigendom van de onderneming Roedel BV. Deze ondernemin
 
 Al in 2011 werd Kempenaars Kennel in Kasterlee op een hondenforum bestempeld als broodfokker.
 
-> Zie ook: [Kempenaars Kennel wordt op hondenforum als broodfokker beschouwd](/nl/2011/01/01/kempenaars-kennel-broodfokker/)
+> Zie ook: [Kempenaars Kennel wordt op hondenforum als broodfokker beschouwd](/nl/2011/07/22/kempenaars-kennel-broodfokker/)
 
 ## Faillissement Kempenaars Kennel — 400 honden achtergelaten (2016)
 
 Op 24 maart 2016 ging Just Dogs — de onderneming achter Kempenaars Kennel — failliet. De onderneming liet ongeveer 400 honden achter in slechte omstandigheden. GAIA sloeg alarm over de staat van de dieren.
 
-> Zie ook: [GAIA dient strafklacht in tegen Felicanis BVBA / Hoeve Hoogland](/nl/2017/01/01/gaia-strafklacht-felicanis/)
+> Zie ook: [Failliete hondenkwekerij Kasterlee: 7 vragen en antwoorden](/nl/2016/04/07/failliete-hondenkwekerij-kasterlee/)
 
 ## BVBA Hoeve Hoogland koopt niet-vergunde stallen over (2016–2023)
 
@@ -25,7 +25,7 @@ De eigenaar stopte niet met zijn activiteiten. BVBA Hoeve Hoogland kocht de niet
 
 Onder de naam Felicanis werden sindsdien meerdere puppy's met ernstige ziektes verkocht. Volgens GAIA werden de dieren op grote schaal geïmporteerd uit Oost-Europa — onder meer uit Tsjechië, Hongarije en Bulgarije — in dieronvriendelijke omstandigheden, met ziektes en sterfgevallen tot gevolg.
 
-> Zie ook: [GAIA dient strafklacht in tegen Felicanis BVBA / Hoeve Hoogland](/nl/2017/01/01/gaia-strafklacht-felicanis/)
+> Zie ook: [GAIA dient strafklacht in tegen Felicanis BVBA / Hoeve Hoogland](/nl/2022/08/17/gaia-strafklacht-felicanis/)
 
 ## Erkenning ingetrokken — doorstart als Roedel BV (2023–heden)
 
