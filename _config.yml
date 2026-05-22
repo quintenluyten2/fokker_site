@@ -1,7 +1,7 @@
 title: "Felicaniс Broodfokker — Documentatie"
 description: "Verzameling van bewijsmateriaal en documentatie / Collection of evidence and documentation"
-url: "https://felicanis-fraudeert.be"
-baseurl: "/fokker_site"
+url: "https://www.felicanis-fraudeert.be"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
