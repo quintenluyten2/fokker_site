@@ -6,7 +6,7 @@ baseurl: ""
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:lang/:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # Plugins (all supported natively by GitHub Pages)
 plugins:
@@ -25,10 +25,12 @@ defaults:
       path: "nl"
     values:
       lang: "nl"
+      categories: [nl]
   - scope:
       path: "en"
     values:
       lang: "en"
+      categories: [en]
 
 # Exclude from build
 exclude:
