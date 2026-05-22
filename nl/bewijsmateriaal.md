@@ -18,5 +18,6 @@ Overzicht van externe bronnen en verslagen die zijn gebruikt in de documentatie 
 
 ## Pers
 
+- [Vlaamse broodfokker krijgt levenslang houdverbod (20 maart 2018)](https://www.animalstoday.nl/vlaamse-broodfokker-krijgt-levenslang-houdverbod/) — Animals Today
 - [Politie valt binnen bij kennels van broodfokker Felicanis (24 oktober 2022)](https://www.hln.be/kasterlee/politie-valt-binnen-bij-kennels-van-broodfokker-felicanis-we-zorgen-voor-opvang-voor-de-dieren~a97142241/) — Het Laatste Nieuws
 - [Minister schrapt erkenning beruchte broodfokker in Kasterlee (28 juni 2023)](https://www.gva.be/video-zebra/minister-schrapt-erkenning-beruchte-broodfokker-in-kasterlee-maar-kennel-zet-activiteiten-voort-onder-andere-naam/35937160.html) — Gazet van Antwerpen

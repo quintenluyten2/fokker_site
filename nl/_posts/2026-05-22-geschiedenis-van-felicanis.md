@@ -19,9 +19,15 @@ Op 24 maart 2016 ging Just Dogs — de onderneming achter Kempenaars Kennel — 
 
 > Zie ook: [Failliete hondenkwekerij Kasterlee: 7 vragen en antwoorden](/nl/2016/04/07/failliete-hondenkwekerij-kasterlee/)
 
+## Eigenaar Just Dogs krijgt levenslang houdverbod (2018)
+
+Na het faillissement en de aangetroffen verwaarlozing veroordeelde de rechter de eigenaar van Just Dogs tot een levenslang houdverbod.
+
+> Zie ook: [Vlaamse broodfokker krijgt levenslang houdverbod (Animals Today, 20 maart 2018)](/nl/2018/03/20/levenslang-houdverbod-just-dogs/)
+
 ## BVBA Hoeve Hoogland koopt niet-vergunde stallen over (2016–2023)
 
-De eigenaar stopte niet met zijn activiteiten. BVBA Hoeve Hoogland kocht de niet-vergunde stallen van Just Dogs over en begon er opnieuw honden in onder te brengen. De eigenaar van Just Dogs kreeg 6 maanden celstraf opgelegd.
+BVBA Hoeve Hoogland kocht de niet-vergunde stallen van Just Dogs over en begon er opnieuw honden in onder te brengen. De eigenaar van Just Dogs kreeg 6 maanden celstraf opgelegd.
 
 Onder de naam Felicanis werden sindsdien meerdere puppy's met ernstige ziektes verkocht. Volgens GAIA werden de dieren op grote schaal geïmporteerd uit Oost-Europa — onder meer uit Tsjechië, Hongarije en Bulgarije — in dieronvriendelijke omstandigheden, met ziektes en sterfgevallen tot gevolg.
 
